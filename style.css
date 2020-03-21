@@ -1,0 +1,158 @@
+body {
+    background-color: #f1ecaf;
+    color: white;
+}
+
+#addnewbookbutton {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: #256e7d;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px;
+    margin-bottom: 10px;
+}
+
+#banner {
+    color: #256e7d;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#banner h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#banner h5 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#cardContainer {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    color: #3E5C76;
+    width: 225px;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    background: #256e7d;
+    margin: 0;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.author {
+    margin-bottom: 0px;
+}
+
+.pages {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.readStatus {
+    background: #88B04B;
+    border: 1px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    height: 22px;
+}
+
+.removeBook {
+    background: #FE5F55;
+    border: 1px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    height: 25px;
+}
+
+#formContainer {
+    display: none;
+    position: fixed;
+    left: 40%;
+    top: 5%;
+    border: 0px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    z-index: 10;
+    background: #256e7d;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.forminputs {
+    width: 90%;
+}
+
+.formbuttons {
+    width: 100%;
+}
+
+#addbutton {
+    background: #88B04B;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#closebutton {
+    background: #FE5F55;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
